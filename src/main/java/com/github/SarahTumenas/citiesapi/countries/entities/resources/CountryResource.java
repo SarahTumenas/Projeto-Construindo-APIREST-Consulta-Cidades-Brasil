@@ -15,7 +15,7 @@ public class CountryResource {
         this.repository=repository;
     }
     @GetMapping("/countries")
-    public List<Country> cities() {
+    public List<Country> countries() {
 
         return repository.findAll();
     }
