@@ -12,6 +12,8 @@ import com.github.SarahTumenas.citiesapi.cities.entities.City;
 import com.github.SarahTumenas.citiesapi.cities.repositories.CityRepository;
 import java.util.Arrays;
 import java.util.List;
+
+import com.github.SarahTumenas.citiesapi.utils.StringLocationUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.geo.Point;
